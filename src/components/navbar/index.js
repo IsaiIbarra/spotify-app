@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Button, Navbar, Container, Nav } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import { logout } from '../../utils/logout';
-import axios from 'axios';
 
 export default function NavbarApp() {
   const history = useHistory();

@@ -1,21 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import {
-  Button,
-  Card,
-  Form,
-  Col,
-  Row,
-  Container,
-  Spinner,
-} from 'react-bootstrap';
-import { useHistory } from 'react-router-dom';
-import { logout } from '../../utils/logout';
+import { Button, Card, Col, Row, Container, Spinner } from 'react-bootstrap';
 import { Heart, HeartFill } from 'react-bootstrap-icons';
 import axios from 'axios';
 import './styles.css';
 
 export default function Favorites() {
-  const history = useHistory();
   //Para guardar los ids spotify de la lista de favoritas del usuario
   const [favorites, setFavorites] = useState([]);
   //Para validar que esta cargando y mostrar un spinner
