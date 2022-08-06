@@ -20,6 +20,7 @@ export default function Login() {
           user: name,
         },
       });
+      localStorage.setItem('id', data.user[0].id_use);
       localStorage.setItem('name', name);
       history.push('/home');
     } catch (error) {
