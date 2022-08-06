@@ -1,12 +1,4 @@
-.card-home{
-    text-align: center;
-
-    background: rgba( 255, 255, 255, 0 );
-    box-shadow: 0 8px 32px 0 rgba(229, 231, 229, 0.37);
-}
-
 .vertical-scrollable {
-    display: block;
     height: 78vh;
     overflow-y: scroll;
     overflow-x: hidden;
