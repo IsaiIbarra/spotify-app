@@ -1,0 +1,18 @@
+.logo{
+    width: 45%;
+}
+
+.container-login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card-login{
+    width: 20rem;
+    text-align: center;
+
+    box-shadow: 0 8px 32px 0 rgba(229, 231, 229, 0.37);
+}
